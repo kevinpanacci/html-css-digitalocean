@@ -1,9 +1,18 @@
 /* NAVBAR */
 /* BANNER */
-.banner {
+.ms--banner {
     padding-top: 30px;
+    background-color: #0248ff;
 }
 
-#signin::after{
-    
+.ms--banner h1, .ms--banner p {
+    color: white;
+}
+
+/* LOGOS */
+/* deploy */
+/* DEVELOPMENT */
+
+.ms--development a {
+    text-align: center;
 }
