@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Digitalocean</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -18,15 +20,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Start Bootstrap</a>
+                  <a class="navbar-brand" href="#">
+                      <img class="img-responsive center-block" src="https://files.slack.com/files-pri/T91QPE3BP-FTHF2F129/logo.png  " alt="">
+                  </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Products<span class="caret"></span></a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                      <button class="ms--nav-button btn btn-default ms--txt-blue">signup</button>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
@@ -39,11 +49,11 @@
         <section class="ms--banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
-                        <h1>Welcome to the developer cloud</h1>
+                    <div class="col-xs-12 col-sm-6">
+                        <h1 class="text-left">Welcome to the developer cloud</h1>
                         <p> We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
                         <div class="jumbotron">
                             <h2 class="text-center">Deploy in seconds</h2>
                             <form>
@@ -57,15 +67,14 @@
                                     <input type="username" class="form-control" id="" placeholder="Full name">
                               </div>
                             </form>
-                            <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                            <button type="button" class="btn btn-primary btn-lg btn-block ms--create">Create your account</button>
                             <p id="signin">or sign up with</p>
                             <div class="col-xs-6">
-                                <p><button type="button" class="btn btn-default btn-lg btn-block">Large button</button></p>
+                                <p><button type="button" class="btn btn-default btn-lg btn-block">Google</button></p>
                             </div>
                             <div class="col-xs-6">
-                                <p><button type="button" class="btn btn-default btn-lg btn-block">Large button</button></p>
+                                <p><button type="button" class="btn btn-default btn-lg btn-block">GitHub</button></p>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -81,27 +90,27 @@
                     <div class="col-xs-12">
                         <h2 class="text-center">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h2>
                     </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="">
-                    </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="">
-                    </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="">
-                    </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="">
-                    </div>
-                    <div class="col-xs-6">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="">
-                    </div>
-                    <div class="col-xs-12">
-                        <a href="#">See business solutions</a>
 
+                    <div class="col-xs-6 col-sm-2">
+                        <img class="img-responsive center-block"  src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="">
+                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <img class="img-responsive center-block"  src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="">
+                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <img class="img-responsive center-block"  src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
+                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <img class="img-responsive center-block"  src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="">
+                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <img class="img-responsive center-block"  src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="">
+                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <img class="img-responsive center-block" id="splunk" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="">
+                    </div>
+                    <div class="col-xs-12 text-center">
+                        <p><a href="">See business solutions ></a></p>
                     </div>
                 </div>
 
@@ -115,31 +124,41 @@
             <div class="container">
                 <div class="col-xs-12">
                     <h2 class="text-center">Deploy and scale seamlessly</h2>
-                    <p class="text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                    <p id="config" class="text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
                 </div>
-                <div class="col-xs-6">
-                    <h3 class="text-left">Kubernetes in minutes</h3>
-                    <p class="text-left">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                <div class="text-left col-xs-12">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                    <h3>Kubernetes in minutes</h3>
+                    <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                 </div>
-                <div class="col-xs-6">
-                    <h3 class="text-left">Flexible compute types</h3>
-                    <p class="text-left">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                <div class="text-left col-xs-12">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                    <h3>Flexible compute types</h3>
+                    <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                 </div>
-                <div class="col-xs-6">
-                    <h3 class="text-left">1-Click App Marketplace</h3>
-                    <p class="text-left">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                <div class="text-left col-xs-12">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                    <h3>1-Click App Marketplace</h3>
+                    <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                 </div>
-                <div class="col-xs-6">
-                    <h3 class="text-left">Global availability</h3>
-                    <p class="text-left">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                <div class="text-left col-xs-12">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                    <h3>Global availability</h3>
+                    <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
                 </div>
             </div>
         </section>
-        <section class="developers">
+
+
+        <section class="ms--developers">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="">
+                        <h2 class="text-center">Designed for developers</h2>
+                        <p class="text-center">Build more and spend less time managing your infrastructures with our easy-to-use control panel and API.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -154,25 +173,29 @@
                     <div class="col-xs-12">
                         <h2 class="text-center">Built for business</h2>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12">
+                        <span class="glyphicon glyphicon-info-sign"></span>
                         <h3>Reliable platform</h3>
                         <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services</p>
-                        <a href="#">Security</a>
+                        <a href="#">Security > </a>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12">
+                        <span class="glyphicon glyphicon-info-sign"></span>
                         <h3>Predictable pricing</h3>
                         <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure. </p>
-                        <a href="#">Pricing</a>
+                        <a href="#">Pricing > </a>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12">
+                        <span class="glyphicon glyphicon-info-sign"></span>
                         <h3>World-class service</h3>
                         <p>Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
-                        <a href="#">Support</a>
+                        <a href="#">Support > </a>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12">
+                        <span class="glyphicon glyphicon-info-sign"></span>
                         <h3>Security and compliance</h3>
                         <p>Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.</p>
-                        <a href="#">Compilance</a>
+                        <p><a href="#">Compilance > </a></p>
                     </div>
 
                 </div>
@@ -205,24 +228,104 @@
                     <div class="row">
                         <div class="col-xs-12 text-center">
                             <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/teams/rockerbox-logo-51462da2.png" alt="">
-                            <p class="text-center">“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</p>
+                            <p id="quote" class="text-center">“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</p>
                             <cite class="text-center">Rick O'Toole</cite>
                             <h5 class="text-center">Co-founder and CTO</h5>
-                            <a href="#">Read story</a>
+                            <a href="#">Read story > </a>
                         </div>
 
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
         <section class="ms--get-started">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-xs-12">
                         <h2>Get started now.</h2>
-                        <p><button type="button" class="btn btn-default btn-lg">Create your account</button></p>
+                        <button type="button" class="btn btn-default btn-lg">Create your account</button>
                     </div>
                 </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="ms--about">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-xs-6">
+                        <ul>
+                            <li><h4>Company</h4></li>
+                            <li><a>About</a></li>
+                            <li><a>Leadershit</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Careers</a></li>
+                            <li><a>Partners</a></li>
+                            <li><a>Referral Program</a></li>
+                            <li><a>Press</a></li>
+                            <li><a>Legal & Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul>
+                            <li><h4>Products</h4></li>
+                            <li><a>Products Overview</a></li>
+                            <li><a>Droplets</a></li>
+                            <li><a>Kubernetes</a></li>
+                            <li><a>Managed Databases</a></li>
+                            <li><a>Spaces</a></li>
+                            <li><a>Marketplace</a></li>
+                            <li><a>Load Balancers</a></li>
+                            <li><a>Block Storage</a></li>
+                            <li><a>Tools & Integrations</a></li>
+                            <li><a>API</a></li>
+                            <li><a>Pricing</a></li>
+                            <li><a>Documentation</a></li>
+                            <li><a>Release Notes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul>
+                            <li><h4>Community</h4></li>
+                            <li><a>Tutorials</a></li>
+                            <li><a>Meetups</a></li>
+                            <li><a>Q&A</a></li>
+                            <li><a>Write for Donations</a></li>
+                            <li><a>Droplets for Demos</a></li>
+                            <li><a>Hatch Startup Program</a></li>
+                            <li><a>Shop Swag</a></li>
+                            <li><a>Research Program</a></li>
+                            <li><a>Currents Research</a></li>
+                            <li><a>Open Source</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul>
+                            <li><h4>Solutions</h4></li>
+                            <li><a>Web & Mobile Apps</a></li>
+                            <li><a>Website Hosting</a></li>
+                            <li><a>Big Data</a></li>
+                            <li><a>Managed Services</a></li>
+                            <li><a>Business Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12">
+                        <ul>
+                            <li><h4>Contact</h4></li>
+                            <li><a>Support</a></li>
+                            <li><a>Sales</a></li>
+                            <li><a>Report Abuse</a></li>
+                            <li><a>System Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </section>
     </body>

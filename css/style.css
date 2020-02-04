@@ -1,18 +1,246 @@
 /* NAVBAR */
+.ms--txt-blue {
+    color: #0049ff;
+}
+
+.ms--bg-blue {
+    background-color: #0049ff;
+}
+
+#ms--navbar .navbar-brand img {
+    height: 100%;
+}
+
+#ms--navbar {
+    background-color: white;
+    line-height: 50px;
+}
+
+#ms--navbar li a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ms--nav-button {
+    background-color: white;
+    border: 1px solid #0049ff;
+    padding:
+}
+
+.ms--nav-button:hover {
+    background-color: #0069ff;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+header {
+    height: 50px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* BANNER */
 .ms--banner {
-    padding-top: 30px;
-    background-color: #0248ff;
+    padding-top: 50px;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
 }
 
 .ms--banner h1, .ms--banner p {
     color: white;
 }
 
+h1 {
+    font-size: 64px;
+
+}
+
+.ms--banner p {
+    font-size: 24px;
+}
+
+.ms--banner .ms--create:hover {
+    background-color: #0248ff;
+    color: white;
+}
+
+.ms--banner .jumbotron {
+    background-color: white;
+}
 /* LOGOS */
+
+.ms--logos {
+    background-color: #f3f5f9;
+}
+
+.ms--logos h2 {
+    color: rgba(3,27,78,.75);
+    font-size: 14px
+}
+
+.ms--logos p {
+    font-size: 16px;
+}
+
+.ms--logos img {
+    height: 100px;
+    object-fit: contain;
+}
+
+.ms--logos p {
+    margin-top: 20px;
+}
+
+/* .ms--logos img#splunk {
+height: 60px; VA IN MEDIA PER <768px
+} */
+
 /* deploy */
+
+.ms--deploy h2 {
+    color: rgba(3,27,78,.75);
+    font-size: 36px;
+}
+.ms--deploy p {
+    color: rgba(3,27,78,.75)
+}
+
+.ms--deploy #config {
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.ms--deploy h3 {
+    font-size: 18px;
+    color: #031b4e;
+    margin-top: 5px;
+}
+
+/* developers */
+.ms--developers h2 {
+    font-size: 36px;
+    color: #031b4e;
+}
+
+.ms--developers p {
+    color: rgba(3,27,78,.75);
+    margin-top: 16px;
+    margin-bottom: 64px;
+    font-size: 20px;
+}
+/* BUSINESS */
+
+.ms--business h2 {
+    color: #031b4e;
+    font-size: 36px;
+}
+
+.ms--business h3 {
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.ms--business p {
+    margin-top: 14px;
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+}
+
+.ms--business .glyphicon {
+    margin-top: 10px;
+}
+
+/* AROUND */
+
+.ms--around {
+    background-color: #031b4e;
+}
+
+.ms--around h2 {
+    font-size: 32px;
+    color: white;
+}
+
 /* DEVELOPMENT */
 
-.ms--development a {
-    text-align: center;
+.ms--development {
+    background-color: #f3f5f9;
+}
+
+.ms--development h2 {
+    color: #031b4e;
+    font-size: 36px;
+}
+
+.ms--development p {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+}
+
+.ms--development #quote {
+    font-size: 24px;
+}
+
+.ms--development h5 {
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+
+/* Get started! */
+
+.ms--get-started {
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ms--get-started h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.ms--get-started button {
+    color: #0069ff;
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.ms--get-started a {
+    color: red;
+}
+
+/* ABOUT */
+
+.ms--about {
+    background-color: #010e28;
+    border-bottom: 1px solid #587793;
+}
+
+.ms--about h4 {
+    color: white;
+}
+
+.ms--about ul {
+    padding-left: 0;
+}
+
+.ms--about li {
+    list-style: none;
+}
+
+.ms--about li a {
+    text-decoration: none;
+    color: #78867f;
 }
