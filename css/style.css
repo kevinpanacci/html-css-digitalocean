@@ -63,6 +63,12 @@ h1 {
 
 }
 
+#signin {
+    color: #031b4e;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
 .ms--banner p {
     font-size: 24px;
 }
@@ -75,6 +81,16 @@ h1 {
 .ms--banner .jumbotron {
     background-color: white;
 }
+
+.jumbotron h2 {
+    font-size: 30px;
+    color: #031b4e;
+}
+
+.jumbotron input {
+    border: 1px solid rgb(241, 241, 241);
+}
+
 /* LOGOS */
 
 .ms--logos {
@@ -124,6 +140,17 @@ height: 60px; VA IN MEDIA PER <768px
     margin-top: 5px;
 }
 
+.ms--deploy li {
+    color: rgba(3,27,78,.7);
+    padding-left: 7px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.ms--deploy ul {
+    border-left: 1px solid rgba(3,27,78,.7);
+}
+
 /* developers */
 .ms--developers h2 {
     font-size: 36px;
@@ -171,6 +198,48 @@ height: 60px; VA IN MEDIA PER <768px
     color: white;
 }
 
+hr {
+    width: 90%;
+    align-self: center;
+    color: rgba(3,27,78,.7);
+}
+
+.ms--around a {
+    text-decoration: none;
+    font-size: 13px;
+    color: lightgreen;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.ms--around a:hover {
+    text-decoration: none;
+    color: #005fe6;
+}
+
+.ms--around h3 {
+    color: white;
+    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ms--around p {
+    color: color: rgba(3,27,78,.7);
+    padding-top: 9px;
+    padding-bottom: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ms--air {
+    height: 32px;
+}
 /* DEVELOPMENT */
 
 .ms--development {
@@ -180,11 +249,14 @@ height: 60px; VA IN MEDIA PER <768px
 .ms--development h2 {
     color: #031b4e;
     font-size: 36px;
+    margin-bottom: 32px;
 }
 
 .ms--development p {
     font-size: 20px;
     color: rgba(3,27,78,.7);
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .ms--development #quote {
@@ -194,6 +266,10 @@ height: 60px; VA IN MEDIA PER <768px
 .ms--development h5 {
     margin-top: 5px;
     margin-bottom: 24px;
+}
+
+.ms--development img {
+    margin-bottom: 16px;
 }
 
 /* Get started! */
@@ -217,9 +293,7 @@ height: 60px; VA IN MEDIA PER <768px
     padding-right: 32px;
 }
 
-.ms--get-started a {
-    color: red;
-}
+
 
 /* ABOUT */
 
