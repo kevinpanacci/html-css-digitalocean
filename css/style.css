@@ -82,6 +82,10 @@ h1 {
     background-color: white;
 }
 
+.jumbotron {
+    margin-top: 32px;
+}
+
 .jumbotron h2 {
     font-size: 30px;
     color: #031b4e;
@@ -149,6 +153,7 @@ height: 60px; VA IN MEDIA PER <768px
 
 .ms--deploy ul {
     border-left: 1px solid rgba(3,27,78,.7);
+    margin-bottom: 16px;
 }
 
 /* developers */
@@ -300,6 +305,11 @@ hr {
 .ms--about {
     background-color: #010e28;
     border-bottom: 1px solid #587793;
+}
+
+.ms--about p {
+    color: #78867f;
+    font-size: 14px;
 }
 
 .ms--about h4 {
